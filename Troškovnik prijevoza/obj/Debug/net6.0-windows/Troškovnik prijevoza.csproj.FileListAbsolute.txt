@@ -1,0 +1,16 @@
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\bin\Debug\net6.0-windows\Troškovnik prijevoza.exe
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\bin\Debug\net6.0-windows\Troškovnik prijevoza.deps.json
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\bin\Debug\net6.0-windows\Troškovnik prijevoza.runtimeconfig.json
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\bin\Debug\net6.0-windows\Troškovnik prijevoza.dll
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\bin\Debug\net6.0-windows\Troškovnik prijevoza.pdb
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\Troškovnik_prijevoza.Form1.resources
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\Troškovnik prijevoza.csproj.GenerateResource.cache
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\Troškovnik prijevoza.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\Troškovnik prijevoza.AssemblyInfoInputs.cache
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\Troškovnik prijevoza.AssemblyInfo.cs
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\Troškovnik prijevoza.csproj.CoreCompileInputs.cache
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\Troškovnik prijevoza.dll
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\refint\Troškovnik prijevoza.dll
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\Troškovnik prijevoza.pdb
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\Troškovnik prijevoza.genruntimeconfig.cache
+D:\Users\Ucenik\source\repos\Troškovnik prijevoza\Troškovnik prijevoza\obj\Debug\net6.0-windows\ref\Troškovnik prijevoza.dll
