@@ -52,15 +52,25 @@ namespace Troškovnik_prijevoza
 
         private void mC_Kalendar_DateSelected(object sender, DateRangeEventArgs e)
         {
-            DateTime DanPocetni = new DateTime();
-            DateTime DanZavrsni = new DateTime();
-            DanPocetni = mC_Kalendar.SelectionStart;
-            DanZavrsni = mC_Kalendar.SelectionEnd;
 
-            TimeSpan dani = DanZavrsni - DanPocetni;
-            double ukupnoDana = dani.TotalDays;
-            BrojDanaUkupni += ukupnoDana;
-            txb_Troskovnik.Text = "Ukupan broj dana je: " + Math.Round(BrojDanaUkupni).ToString() + Environment.NewLine;
+            BrojDanaUkupni = 0;
+
+            if (e.Start.Date <= e.End.Date)
+            {
+
+                DateTime DanPocetni = new DateTime();
+                DateTime DanZavrsni = new DateTime();
+                DanPocetni = e.Start.Date;
+                DanZavrsni = e.End.Date;
+
+                TimeSpan dani = DanZavrsni - DanPocetni;
+                double ukupnoDana = dani.TotalDays;
+
+                BrojDanaUkupni += ukupnoDana;
+
+                txb_Troskovnik.Text = "Ukupan broj dana je: " + Math.Round(BrojDanaUkupni).ToString() + Environment.NewLine;
+            }
+
         }
 
         private void cBx_Zaposlenik_SelectedIndexChanged(object sender, EventArgs e)
@@ -86,12 +96,17 @@ namespace Troškovnik_prijevoza
         private void Izracunaj_Click(object sender, EventArgs e)
         {
 
-            foreach ( var item in zaposlenikList)
+            var odabraniZap = cBx_Zaposlenik.SelectedItem as Zaposlenik;
+
+            if (odabraniZap != null)
             {
 
-                double ukupno = Math.Round(BrojDanaUkupni) * 2 * item.Udaljenost;
-                txb_Troskovnik.Text = "Udaljenost u jednom smjeru je: " + item.Udaljenost.ToString() + Environment.NewLine;
-                txb_Troskovnik.Text += "Cijena po 1km je: " + Environment.NewLine;
+                double ukupno = Math.Round(BrojDanaUkupni) * 2 * odabraniZap.Udaljenost;
+
+                txb_Troskovnik.Text = "Odabrani zaposlenik: " + odabraniZap.Ime + " " + odabraniZap.Prezime + Environment.NewLine;
+                txb_Troskovnik.Text += "Ukupan broj dana je " + Math.Round(BrojDanaUkupni).ToString() + Environment.NewLine;
+                txb_Troskovnik.Text += "Udaljenost u jednom smjeru je: " + odabraniZap.Udaljenost.ToString() + "km" + Environment.NewLine;
+                txb_Troskovnik.Text += "Cijena po 1km je 1€" + Environment.NewLine;
                 txb_Troskovnik.Text += "Ukupna isplata: " + ukupno;
 
             }
